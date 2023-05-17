@@ -69,8 +69,7 @@ public class q6 {
             } else if(moveLocation == 2) {
                 arr[now[0]][now[1]] = 0;
 
-                after[0] = now[0]+1 < 5 ? now[0]+6
-                1 : now[0];
+                after[0] = now[0]+1 < 5 ? now[0]+1 : now[0];
                 after[1] = now[1];
 
                 arr[after[0]][after[1]] = 1;
